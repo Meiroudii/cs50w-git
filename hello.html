@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello</title>
+    <title>Hello!</title>
     <style>
       .container {
         display: flex;
@@ -15,7 +15,7 @@
         border: 2px dashed skyblue;
         width: 200px;
         height: 200px;
-        background-image: radial-gradient(rgb(157, 160, 138), cyan);
+        background-color: burlywood;
         margin: 10px;
         transition: all 0.85s ease-in;
       }
@@ -24,22 +24,30 @@
         background-image: linear-gradient(to right, rgb(157, 160, 138), cyan);
         transform: rotate(234deg);
       }
+
+      .red-box {
+        background-image: radial-gradient(rgb(67, 96, 65), rgb(70, 13, 10));
+      }
+
+      .blue-box {
+        background-image: radial-gradient(rgb(92, 96, 65), cyan);
+      }
     </style>
   </head>
   <body>
     <div class="container">
+      <div class="div-item red-box">This is a div</div>
+      <div class="div-item blue-box">This is a div</div>
+      <div class="div-item red-box">This is a div</div>
       <div class="div-item">This is a div</div>
+      <div class="div-item red-box">This is a div</div>
+      <div class="div-item blue-box">This is a div</div>
+      <div class="div-item red-box">This is a div</div>
       <div class="div-item">This is a div</div>
+      <div class="div-item red-box">This is a div</div>
       <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
-      <div class="div-item">This is a div</div>
+      <div class="div-item red-box">This is a div</div>
+      <div class="div-item blue-box">This is a div</div>
     </div>
   </body>
 </html>
