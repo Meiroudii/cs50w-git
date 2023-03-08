@@ -14,7 +14,14 @@
       .div-item {
         width: 200px;
         height: 200px;
-        background-image: radial-gradient(gray, cyan);
+        background-image: radial-gradient(rgb(157, 160, 138), cyan);
+        margin: 10px;
+        transition: all 0.85s ease-in;
+      }
+
+      .div-item:hover {
+        background-image: linear-gradient(to right, rgb(157, 160, 138), cyan);
+        transform: rotate(234deg);
       }
     </style>
   </head>
